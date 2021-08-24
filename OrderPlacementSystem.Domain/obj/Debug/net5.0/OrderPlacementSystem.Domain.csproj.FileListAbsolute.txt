@@ -1,0 +1,12 @@
+D:\repos\OrderPlacementSystem\OrderPlacementSystem.Domain\bin\Debug\net5.0\OrderPlacementSystem.Domain.deps.json
+D:\repos\OrderPlacementSystem\OrderPlacementSystem.Domain\bin\Debug\net5.0\OrderPlacementSystem.Domain.dll
+D:\repos\OrderPlacementSystem\OrderPlacementSystem.Domain\bin\Debug\net5.0\ref\OrderPlacementSystem.Domain.dll
+D:\repos\OrderPlacementSystem\OrderPlacementSystem.Domain\bin\Debug\net5.0\OrderPlacementSystem.Domain.pdb
+D:\repos\OrderPlacementSystem\OrderPlacementSystem.Domain\obj\Debug\net5.0\OrderPlacementSystem.Domain.csprojAssemblyReference.cache
+D:\repos\OrderPlacementSystem\OrderPlacementSystem.Domain\obj\Debug\net5.0\OrderPlacementSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\OrderPlacementSystem\OrderPlacementSystem.Domain\obj\Debug\net5.0\OrderPlacementSystem.Domain.AssemblyInfoInputs.cache
+D:\repos\OrderPlacementSystem\OrderPlacementSystem.Domain\obj\Debug\net5.0\OrderPlacementSystem.Domain.AssemblyInfo.cs
+D:\repos\OrderPlacementSystem\OrderPlacementSystem.Domain\obj\Debug\net5.0\OrderPlacementSystem.Domain.csproj.CoreCompileInputs.cache
+D:\repos\OrderPlacementSystem\OrderPlacementSystem.Domain\obj\Debug\net5.0\OrderPlacementSystem.Domain.dll
+D:\repos\OrderPlacementSystem\OrderPlacementSystem.Domain\obj\Debug\net5.0\ref\OrderPlacementSystem.Domain.dll
+D:\repos\OrderPlacementSystem\OrderPlacementSystem.Domain\obj\Debug\net5.0\OrderPlacementSystem.Domain.pdb
