@@ -32,6 +32,15 @@ namespace OrderPlacementSystemAPI
             opt.UseSqlServer("OrderConnectionString")
             .EnableSensitiveDataLogging()
             .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
+
+            services.AddSwaggerGen(setupAction =>
+            {
+                setupAction.SwaggerDoc("OrderPlacementSystemOpenAPISpecification", new Microsoft.OpenApi.Models.OpenApiInfo()
+                {
+                    Title = "OrderPlacementSystem API",
+                    Version = "0.0.1"
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +50,15 @@ namespace OrderPlacementSystemAPI
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(setupAction => 
+            {
+                setupAction.SwaggerEndpoint(
+                    "/swagger/OrderPlacementSystemOpenAPISpecification/swagger.json", 
+                    "OrderPlacementSystem API");
+            });
 
             app.UseRouting();
 
