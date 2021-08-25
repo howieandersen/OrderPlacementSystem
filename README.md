@@ -22,7 +22,7 @@ Requirements: React, Vue or Angular preferred (Pure HTML / CSS / JS will be acce
 ## Proposed Solution
 
 *TODO: [ADD_SOLUTION_DESCRIPTION]*
-* Bullet list
+* Write list of TODOS
     * Nested bullet
         * Sub-nested bullet etc
 * Bullet list item 2
