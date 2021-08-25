@@ -6,7 +6,10 @@
 
 ## Assumptions
 
-*TODO: [ASSUMPTIONS_MADE_HERE]*
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
 
 ## Proposed Solution
 
