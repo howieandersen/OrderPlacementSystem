@@ -38,7 +38,8 @@ namespace OrderPlacementSystemAPI
                 options.AddDefaultPolicy(builder =>
                 {
                     builder
-                        .WithOrigins(Configuration.GetSection("AllowedOrigins").Get<string[]>());
+                        .WithOrigins(Configuration.GetSection("AllowedOrigins").Get<string[]>())
+                        .WithMethods("GET", "POST", "PUT", "DELETE");
                 });
             });
         }
