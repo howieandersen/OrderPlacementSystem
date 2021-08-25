@@ -14,8 +14,10 @@
 ## Proposed Solution
 
 *TODO: [ADD_SOLUTION_DESCRIPTION]*
-- break down the steps I followed
-- use bullet points to explain it in a very structured way
+* Bullet list
+    * Nested bullet
+        * Sub-nested bullet etc
+* Bullet list item 2
 
 ## Screenshots
 ![alt text](screens/demo.png)
