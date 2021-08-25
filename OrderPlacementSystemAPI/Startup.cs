@@ -26,12 +26,21 @@ namespace OrderPlacementSystemAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllers();
             services.AddDbContext<OrderPlacementSystemContext>(opt =>
             opt.UseSqlServer("OrderConnectionString")
             .EnableSensitiveDataLogging()
             .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
+
+            //Enable CORS
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder
+                        .WithOrigins(Configuration.GetSection("AllowedOrigins").Get<string[]>());
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,12 +53,15 @@ namespace OrderPlacementSystemAPI
 
             app.UseRouting();
 
+            app.UseCors();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+
         }
     }
 }
